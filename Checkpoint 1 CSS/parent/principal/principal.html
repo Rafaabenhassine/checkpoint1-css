@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./HTML.jfif">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body class="body1">
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile photo -->
+    <section id="home">
+        <figure>
+            <img width="70" height="80" src="./my profile 2.PNG" alt="my photo">
+        </figure>
+        <h2>Rafaa Ben Hassine</h2>
+        <address>
+            <p>34 AV Beni Hassene, La Soukra, 2073, Ariana</p>
+            <p>Tunis, 16/03/1980</p>
+            <p>Phone: +216 25 688 838</p>
+            <p>Driving License B (since 2003)</p>
+        </address>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello! I was a Merchandising Manager and decided to change my career. I'm now a full stack JavaScript web developer. I specialize in creating dynamic and interactive web applications and am passionate about learning and improving my skills.</p>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work">
+            <h2>Work</h2>
+            <p>Here are a few examples of my recent projects:</p>
+            <ul>
+                <li><strong>Project 1:</strong> A dynamic e-commerce website</li>
+                <li><strong>Project 2:</strong> A task management application</li>
+                <li><strong>Project 3:</strong> A responsive portfolio website</li>
+            </ul>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>You can view my resume by clicking the link below:</p>
+            <button><a href="../parent.html" target="_blank">View Resume</a></button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please fill out the form below:</p>
+            <form action="/submit_contact" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+<!-- footer -->
+    <footer>
+        <h2>Contact Me</h2>
+        <p>Get in touch via phone, email, or social media:</p>
+        <a href="tel:+21625688838">Tel: +216 25 688 838</a><br>
+        <a href="mailto:rafaabenhassine0@gmail.com">Email: rafaabenhassine0@gmail.com</a><br><br>
+        <a href="https://www.facebook.com/" target="_blank"><img width="20" height="20" src="./icon faceboock 5.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img width="20" height="20" src="./instagram icon petit.jpg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img width="20" height="20" src="./linkedin icon.jpg" alt="LinkedIn"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img width="20" height="20" src="./icon twitter.jfif" alt="Twitter"></a>
+        <p>&copy; All rights reserved</p>
+    </footer>
+</body>
+</html>
