@@ -1,221 +1,227 @@
+/* margin padding box-sinzing */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* General Styles */
 body {
-    font-family: "Roboto", sans-serif;
-    color: #333 !important;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5 !important;
-  }
-  
-  /* Navbar styling */
-  header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  header nav ul li {
-    display: inline;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: background-color 0.3s;
-  }
-  
-  header nav ul li a:hover {
-    background-color: #555;
-    border-radius: 5px;
-  }
-  
-  /* Home Section Styling */
-  #home {
-    text-align: center;
-    padding: 2em 0;
-  }
-  
-  #home img {
-    border-radius: 50%;
-    margin-bottom: 1em;
-  }
-  
-  #home h2 {
-    font-size: 2em;
-    color: #333;
-  }
-  
-  /* Section Styling (About, Work, Resume, Contact) */
-  section {
-    margin: 3em auto;
-    padding: 2em;
-    max-width: 800px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Section Heading Styling */
-  section h2 {
-    text-align: center;
-    color: #444;
-    margin-bottom: 0.5em;
-  }
-  
-  /* Resume Section - Button Styling */
-  #resume button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  #resume button a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #resume button:hover {
-    background-color: #555;
-  }
-  
-  /* Contact Form Styling */
-  #contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  #contact input,
-  #contact textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
-  #contact input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  #contact input[type="submit"]:hover {
-    background-color: #555;
-  }
-  
-  /* Footer Styling */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-  }
-  
-  footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s;
-  }
-  
-  footer a:hover {
-    color: #ccc;
-  }
-  
-  footer img {
-    vertical-align: middle;
-    margin-right: 5px;
-  }
-  
-  /* Header and Navbar Styling */
-  header {
-    background-color: #333;
-    padding: 1em 0;
-    text-align: center;
-    color: white !important; /* Enforces white color */
-  }
-  
-  header h1 {
-    font-size: 2em; /* Main title font size adjustment */
-    color: white !important;
-  }
-  
-  /* GoMyCode Section Styling */
-  #formation {
-    text-align: center;
-    margin-top: 2em;
-    padding: 1em;
-    background-color: #e8f0fe; /* Soft color for differentiation */
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  #formation p {
-    font-size: 1.1em;
-    color: #333;
-    margin-bottom: 1em;
-  }
-  
-  /* GoMyCode Link Styling */
-  .gomycode-link {
-    color: #0056b3;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 2px solid #0056b3;
-    transition: color 0.3s, border-bottom 0.3s;
-  }
-  
-  .gomycode-link:hover {
-    color: #003580;
-    border-bottom: 2px solid #003580;
-  }
-  
-  /* Embedded Video Styling */
-  .video-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-  }
-  
-  .video-wrapper iframe {
-    border: 3px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* GoMyCode Button Styling */
-  .gomycode-button {
-    display: inline-block;
-    background-color: #0073e6 !important; /* Button color */
-    color: white !important;
-    padding: 10px 20px !important;
-    font-weight: bold !important;
-    font-size: 1em !important;
-    border: none !important;
-    border-radius: 5px !important;
-    text-decoration: none !important;
-    transition: background-color 0.3s !important;
-  }
-  
-  .gomycode-button:hover {
-    background-color: #005bb5 !important; /* Hover color */
-  }
-  
-  
-  /* Style global du corps
+  font-family: "Roboto", sans-serif;
+  color: #333 !important;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5 !important;
+}
+
+/* Navbar styling */
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Home Section Styling */
+#home {
+  text-align: center;
+  padding: 2em 0;
+}
+
+#home img {
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+#home h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Section Styling (About, Work, Resume, Contact) */
+section {
+  margin: 3em auto;
+  padding: 2em;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading Styling */
+section h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 0.5em;
+}
+
+/* Resume Section - Button Styling */
+#resume button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#resume button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#resume button:hover {
+  background-color: #555;
+}
+
+/* Contact Form Styling */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Header and Navbar Styling */
+header {
+  background-color: #333;
+  padding: 1em 0;
+  text-align: center;
+  color: white !important; /* Enforces white color */
+}
+
+header h1 {
+  font-size: 2em; /* Main title font size adjustment */
+  color: white !important;
+}
+
+/* GoMyCode Section Styling */
+#formation {
+  text-align: center;
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #e8f0fe; /* Soft color for differentiation */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formation p {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+/* GoMyCode Link Styling */
+.gomycode-link {
+  color: #0056b3;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #0056b3;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.gomycode-link:hover {
+  color: #003580;
+  border-bottom: 2px solid #003580;
+}
+
+/* Embedded Video Styling */
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.video-wrapper iframe {
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* GoMyCode Button Styling */
+.gomycode-button {
+  display: inline-block;
+  background-color: #0073e6 !important; /* Button color */
+  color: white !important;
+  padding: 10px 20px !important;
+  font-weight: bold !important;
+  font-size: 1em !important;
+  border: none !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s !important;
+}
+
+.gomycode-button:hover {
+  background-color: #005bb5 !important; /* Hover color */
+}
+
+/* Style global du corps
   body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
@@ -223,52 +229,52 @@ body {
       background-color: #f9f9f9;
       color: #333;
   } */
-  
-  /* Styles pour le header et la barre de navigation
+
+/* Styles pour le header et la barre de navigation
   header {
       background-color: #333;
       padding: 10px;
       text-align: center;
   } */
-  
-  /* header nav ul {
+
+/* header nav ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
   } */
-  
-  /* header nav ul li {
+
+/* header nav ul li {
       display: inline;
       margin: 0 10px;
   } */
-  
-  /* header nav ul li a {
+
+/* header nav ul li a {
       color: white;
       text-decoration: none;
       font-weight: bold;
   } */
-  
-  /* header nav ul li a:hover {
+
+/* header nav ul li a:hover {
       color: #ffd700;
   } */
-  
-  /* Styles pour la section principale
+
+/* Styles pour la section principale
   main {
       padding: 20px;
       margin: 20px;
   } */
-  
-  /* Sections individuelles
+
+/* Sections individuelles
   section {
       margin-bottom: 30px;
   } */
-  
-  /* h1, h2 {
+
+/* h1, h2 {
       color: #333;
       text-align: center;
   } */
-  
-  /* Style des boutons
+
+/* Style des boutons
   button, .resume-button a {
       display: inline-block;
       padding: 10px 20px;
@@ -280,36 +286,36 @@ body {
       text-align: center;
       cursor: pointer;
   } */
-  
-  /* button:hover, .resume-button a:hover {
+
+/* button:hover, .resume-button a:hover {
       background-color: #555;
   } */
-  
-  /* Style de la liste de projets dans la section Work
+
+/* Style de la liste de projets dans la section Work
   #work ul {
       list-style-type: square;
       padding-left: 20px;
   } */
-  
-  /* Style de la section Resume
+
+/* Style de la section Resume
   #resume {
       text-align: center;
       margin: 30px 0;
   } */
-  
-  /* #resume h2 {
+
+/* #resume h2 {
       color: #333;
       font-size: 1.8em;
       margin-bottom: 10px;
   } */
-  
-  /* #resume p {
+
+/* #resume p {
       font-size: 1em;
       color: #666;
       margin-bottom: 20px;
   } */
-  
-  /* Style du bouton View Resume
+
+/* Style du bouton View Resume
   #resume button {
       background-color: #333;
       color: white;
@@ -320,32 +326,32 @@ body {
       cursor: pointer;
       transition: background-color 0.3s ease;
   } */
-  
-  /* Retirer le style de lien du bouton
+
+/* Retirer le style de lien du bouton
   #resume button a {
       color: white;
       text-decoration: none;
   } */
-  
-  /* Effet de survol sur le bouton
+
+/* Effet de survol sur le bouton
   #resume button:hover {
       background-color: #555;
   } */
-  
-  /* Style des formulaires
+
+/* Style des formulaires
   form label {
       font-weight: bold;
   } */
-  
-  /* form input[type="text"], form input[type="email"], form input[type="tel"], form textarea {
+
+/* form input[type="text"], form input[type="email"], form input[type="tel"], form textarea {
       width: 100%;
       padding: 10px;
       margin: 5px 0 20px;
       border: 1px solid #ccc;
       border-radius: 5px;
   } */
-  
-  /* form input[type="submit"] {
+
+/* form input[type="submit"] {
       background-color: #333;
       color: white;
       border: none;
@@ -353,12 +359,12 @@ body {
       border-radius: 5px;
       cursor: pointer;
   } */
-  
-  /* form input[type="submit"]:hover {
+
+/* form input[type="submit"]:hover {
       background-color: #555;
   } */
-  
-  /* Styles pour le footer
+
+/* Styles pour le footer
   footer {
       background-color: #333;
       color: white;
@@ -366,25 +372,24 @@ body {
       padding: 20px;
       margin-top: 30px;
   } */
-  
-  /* footer a {
+
+/* footer a {
       color: #ffd700;
       text-decoration: none;
       margin: 0 10px;
   } */
-  
-  /* footer a:hover {
+
+/* footer a:hover {
       text-decoration: underline;
   } */
-  
-  /* footer img {
+
+/* footer img {
       margin: 0 5px;
       vertical-align: middle;
   } */
-  
-  /* Style pour les images de profil
+
+/* Style pour les images de profil
   figure img {
       border-radius: 50%;
       margin: 10px 0;
   } */
-  
