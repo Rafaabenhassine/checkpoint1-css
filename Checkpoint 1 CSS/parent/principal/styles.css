@@ -1,4 +1,4 @@
-/* Style général */
+/* General Styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #333 !important;
@@ -8,6 +8,7 @@ body {
   background-color: #f5f5f5 !important;
 }
 
+/* Navbar styling */
 header nav ul {
   list-style: none;
   padding: 0;
@@ -34,7 +35,7 @@ header nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Style pour la section Accueil */
+/* Home Section Styling */
 #home {
   text-align: center;
   padding: 2em 0;
@@ -50,7 +51,7 @@ header nav ul li a:hover {
   color: #333;
 }
 
-/* Style pour chaque section */
+/* Section Styling (About, Work, Resume, Contact) */
 section {
   margin: 3em auto;
   padding: 2em;
@@ -60,14 +61,14 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style pour les titres des sections */
+/* Section Heading Styling */
 section h2 {
   text-align: center;
   color: #444;
   margin-bottom: 0.5em;
 }
 
-/* Style pour la section Resume */
+/* Resume Section - Button Styling */
 #resume button {
   background-color: #333;
   color: #fff;
@@ -88,7 +89,7 @@ section h2 {
   background-color: #555;
 }
 
-/* Style pour la section Contact */
+/* Contact Form Styling */
 #contact form {
   display: flex;
   flex-direction: column;
@@ -115,7 +116,7 @@ section h2 {
   background-color: #555;
 }
 
-/* Style pour le pied de page */
+/* Footer Styling */
 footer {
   background-color: #333;
   color: white;
@@ -139,25 +140,25 @@ footer img {
   margin-right: 5px;
 }
 
-/* Style pour l’en-tête et la barre de navigation */
+/* Header and Navbar Styling */
 header {
   background-color: #333;
   padding: 1em 0;
   text-align: center;
-  color: white !important; /* !important pour forcer le blanc */
+  color: white !important; /* Enforces white color */
 }
 
 header h1 {
-  font-size: 2em; /* Ajustement de la taille du texte du titre principal */
-  color: white !important; /* !important pour forcer le blanc */
+  font-size: 2em; /* Main title font size adjustment */
+  color: white !important;
 }
 
-/* Style pour la section de formation GoMyCode */
+/* GoMyCode Section Styling */
 #formation {
   text-align: center;
   margin-top: 2em;
   padding: 1em;
-  background-color: #e8f0fe; /* Couleur douce pour différencier cette section */
+  background-color: #e8f0fe; /* Soft color for differentiation */
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -168,7 +169,7 @@ header h1 {
   margin-bottom: 1em;
 }
 
-/* Style pour le lien GoMyCode */
+/* GoMyCode Link Styling */
 .gomycode-link {
   color: #0056b3;
   font-weight: bold;
@@ -182,7 +183,7 @@ header h1 {
   border-bottom: 2px solid #003580;
 }
 
-/* Style pour la vidéo intégrée */
+/* Embedded Video Styling */
 .video-wrapper {
   display: flex;
   justify-content: center;
@@ -195,10 +196,10 @@ header h1 {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style pour le bouton GoMyCode */
+/* GoMyCode Button Styling */
 .gomycode-button {
   display: inline-block;
-  background-color: #0073e6 !important; /* Couleur du bouton */
+  background-color: #0073e6 !important; /* Button color */
   color: white !important;
   padding: 10px 20px !important;
   font-weight: bold !important;
@@ -210,7 +211,7 @@ header h1 {
 }
 
 .gomycode-button:hover {
-  background-color: #005bb5 !important; /* Couleur au survol */
+  background-color: #005bb5 !important; /* Hover color */
 }
 
 
